@@ -13,6 +13,14 @@
 		27342D6226AA423200BABBAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27342D6026AA423200BABBAE /* Main.storyboard */; };
 		27342D6426AA423400BABBAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27342D6326AA423400BABBAE /* Assets.xcassets */; };
 		27342D6726AA423400BABBAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27342D6526AA423400BABBAE /* LaunchScreen.storyboard */; };
+		27342D7026AA4B8100BABBAE /* SharpTopImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27342D6F26AA4B8100BABBAE /* SharpTopImageView.swift */; };
+		27342D7226AA51D200BABBAE /* SharpBottomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27342D7126AA51D200BABBAE /* SharpBottomImageView.swift */; };
+		27342D7526AA539A00BABBAE /* FlogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27342D7426AA539A00BABBAE /* FlogView.swift */; };
+		27342D7826AA59DC00BABBAE /* Hw4-6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27342D7726AA59DC00BABBAE /* Hw4-6ViewController.swift */; };
+		27342D7B26AA633C00BABBAE /* Hw4-5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27342D7A26AA633C00BABBAE /* Hw4-5ViewController.swift */; };
+		27342D7E26AA8B8100BABBAE /* CircularProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27342D7D26AA8B8100BABBAE /* CircularProgressViewController.swift */; };
+		27342D8026AD927200BABBAE /* DonutChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27342D7F26AD927200BABBAE /* DonutChartViewController.swift */; };
+		27BD055D26ADB3CA00E4B9E9 /* Hw4-3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BD055C26ADB3CA00E4B9E9 /* Hw4-3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		27342D6326AA423400BABBAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27342D6626AA423400BABBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27342D6826AA423400BABBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27342D6F26AA4B8100BABBAE /* SharpTopImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharpTopImageView.swift; sourceTree = "<group>"; };
+		27342D7126AA51D200BABBAE /* SharpBottomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharpBottomImageView.swift; sourceTree = "<group>"; };
+		27342D7426AA539A00BABBAE /* FlogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlogView.swift; sourceTree = "<group>"; };
+		27342D7726AA59DC00BABBAE /* Hw4-6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hw4-6ViewController.swift"; sourceTree = "<group>"; };
+		27342D7A26AA633C00BABBAE /* Hw4-5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hw4-5ViewController.swift"; sourceTree = "<group>"; };
+		27342D7D26AA8B8100BABBAE /* CircularProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressViewController.swift; sourceTree = "<group>"; };
+		27342D7F26AD927200BABBAE /* DonutChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutChartViewController.swift; sourceTree = "<group>"; };
+		27BD055C26ADB3CA00E4B9E9 /* Hw4-3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hw4-3ViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +76,67 @@
 				27342D5C26AA423200BABBAE /* SceneDelegate.swift */,
 				27342D5E26AA423200BABBAE /* ViewController.swift */,
 				27342D6026AA423200BABBAE /* Main.storyboard */,
+				27BD055B26ADB3A500E4B9E9 /* 4-3 */,
+				27342D7C26AA86C400BABBAE /* 4-4 */,
+				27342D7926AA632300BABBAE /* 4-5 */,
+				27342D7626AA59B100BABBAE /* 4-6 */,
+				27342D7326AA536100BABBAE /* 4-7 */,
+				27342D6E26AA42A000BABBAE /* 4-9 */,
 				27342D6326AA423400BABBAE /* Assets.xcassets */,
 				27342D6526AA423400BABBAE /* LaunchScreen.storyboard */,
 				27342D6826AA423400BABBAE /* Info.plist */,
 			);
 			path = HW4;
+			sourceTree = "<group>";
+		};
+		27342D6E26AA42A000BABBAE /* 4-9 */ = {
+			isa = PBXGroup;
+			children = (
+				27342D6F26AA4B8100BABBAE /* SharpTopImageView.swift */,
+				27342D7126AA51D200BABBAE /* SharpBottomImageView.swift */,
+			);
+			path = "4-9";
+			sourceTree = "<group>";
+		};
+		27342D7326AA536100BABBAE /* 4-7 */ = {
+			isa = PBXGroup;
+			children = (
+				27342D7426AA539A00BABBAE /* FlogView.swift */,
+			);
+			path = "4-7";
+			sourceTree = "<group>";
+		};
+		27342D7626AA59B100BABBAE /* 4-6 */ = {
+			isa = PBXGroup;
+			children = (
+				27342D7726AA59DC00BABBAE /* Hw4-6ViewController.swift */,
+			);
+			path = "4-6";
+			sourceTree = "<group>";
+		};
+		27342D7926AA632300BABBAE /* 4-5 */ = {
+			isa = PBXGroup;
+			children = (
+				27342D7A26AA633C00BABBAE /* Hw4-5ViewController.swift */,
+			);
+			path = "4-5";
+			sourceTree = "<group>";
+		};
+		27342D7C26AA86C400BABBAE /* 4-4 */ = {
+			isa = PBXGroup;
+			children = (
+				27342D7D26AA8B8100BABBAE /* CircularProgressViewController.swift */,
+				27342D7F26AD927200BABBAE /* DonutChartViewController.swift */,
+			);
+			path = "4-4";
+			sourceTree = "<group>";
+		};
+		27BD055B26ADB3A500E4B9E9 /* 4-3 */ = {
+			isa = PBXGroup;
+			children = (
+				27BD055C26ADB3CA00E4B9E9 /* Hw4-3ViewController.swift */,
+			);
+			path = "4-3";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +210,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27342D7E26AA8B8100BABBAE /* CircularProgressViewController.swift in Sources */,
+				27342D7526AA539A00BABBAE /* FlogView.swift in Sources */,
 				27342D5F26AA423200BABBAE /* ViewController.swift in Sources */,
 				27342D5B26AA423200BABBAE /* AppDelegate.swift in Sources */,
+				27342D8026AD927200BABBAE /* DonutChartViewController.swift in Sources */,
+				27342D7226AA51D200BABBAE /* SharpBottomImageView.swift in Sources */,
+				27342D7826AA59DC00BABBAE /* Hw4-6ViewController.swift in Sources */,
 				27342D5D26AA423200BABBAE /* SceneDelegate.swift in Sources */,
+				27342D7026AA4B8100BABBAE /* SharpTopImageView.swift in Sources */,
+				27342D7B26AA633C00BABBAE /* Hw4-5ViewController.swift in Sources */,
+				27BD055D26ADB3CA00E4B9E9 /* Hw4-3ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
